@@ -37,6 +37,7 @@ nav a, footer a, .book, .join {
 
 #background {
     background-color: #DFA621;
+    height: 725px;
 }
 
 .msg p{
@@ -55,3 +56,11 @@ nav a, footer a, .book, .join {
 #hero-img {
     width: 100%;
 }
+
+footer p {
+    font-size: 1.2em;
+}  
+
+footer p a:hover {
+    text-decoration: underline;
+}   
