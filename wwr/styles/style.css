@@ -3,7 +3,7 @@ div content {
     margin: 0 auto;
 }
 
-nav, #hero-msg h1, h4, .button-box, main section {
+#hero-msg h1, h4, .button-box, main section {
     text-align: center;
 }
 
@@ -36,7 +36,7 @@ nav a, footer a, .book, .join {
 }
 
 #background {
-    background-color: #DFA621;
+    background-color: #705039;
     height: 725px;
 }
 
