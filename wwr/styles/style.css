@@ -1,66 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Inter:wght@300&family=Merriweather&family=Ubuntu&display=swap');
+
 div content {
     max-width: 1600px;
     margin: 0 auto;
 }
 
+/*The following are styles for text*/
+
 #hero-msg h1, h4, .button-box, main section {
     text-align: center;
 }
-
-#background {
-    height: 725px;
+main section img {
+    box-sizing: border-box;
 }
-
 header, footer {
     background-color: #012E55;
     color: #DFA621;
 }
-
 body {
     background-color: lightslategray;
+    font-size: 22px;
+    font-family: 'Ubuntu', 'Inter,', sans-serif;
 }
-
+.home-title {
+    font-size: 2em;
+    font-family: 'Cinzel', 'Merriweather', serif;
+    margin-top: 10px;
+}
+h2 {
+    margin: 0;
+}
 nav a:hover, footer a:hover, .book:hover, .join:hover {
     background-color: #0E83AE;
     color: white;
 }
-
+footer {
+    font-size: .6em;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+footer .social img {
+    padding-top: 15px;
+}
 nav a, footer a, .book, .join {
-    color: #0E83AE;
+    color: white;
     text-decoration: none;
 }
-
+nav a {
+    padding: 35px;
+}
+.book, .join{
+    background-color: #DFA621;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
 .msg, .msg h2 {
     background-color: #705039;
     color: white;
 }
-
+.msg {
+    padding: 35px;
+}
 #background {
     background-color: #705039;
     height: 725px;
 }
-
 .msg p{
     color: lightgrey;
+    line-height: 1.5em;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
-
 .home-title, h4, h2 {
     color: #012E55;
 }
-
 .logo, .icon {
     width: 80px;
     height: 80px;
 }
-
 #hero-img {
     width: 100%;
 }
-
 footer p {
     font-size: 1.2em;
 }  
-
 footer p a:hover {
     text-decoration: underline;
-}   
+}
+#logo_link {
+    padding-top: 5px;
+}
+.icon {
+    padding-top: 10px;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #0E83AE;
+    border-radius: 3px;
+}
